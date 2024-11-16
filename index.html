@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Kevin Pereyra | Developer</title>
+    <link rel="icon" href="static/images/code.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Kevin Pereyra | Crafting Code, Building Solutions</h1>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About me</h2>
+        <p>Hi! I'm Kevin, I'm studying software development and i love it! Please check some of my projects! I have been working on several projects, both front-end and back-end, using tools such as HTML, CSS, JavaScript, Python, and Flask. </p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card" onclick="showAlert()">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                <h3>Pizzeria</h3>
+                <p>This is a static website that shows the full menu, contact details, location, and many other aspects of a pizza restaurant.</p>
+            </div>
+            <div class="project-card" onclick="showAlert()">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                <h3>Copa America</h3>
+                <p>Here we have a software solution more robust than the pizzeria's, built with technologies such as Flask (Python) for the API, MySQL for the database, and a bit of JavaScript for interactions.</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                <a href="https://github.com/kevinfacundo/wineticket" target="_blank"><h3>Wineticket</h3></a>
+                <p>The star of my portfolio, Wineticket, is a project I'm currently working on, and it's the first one that will go into production, hopefully in a few weeks. This web app will allow wine enthusiasts and the broader community to discover all related events, all in one place. It provides event details, locations, reviews, and even the option to purchase tickets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me at: <a href="mailto: pereyrakevinfacundo@gmail.com">pereyrakevinfacundo@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy;kevinfacundo 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
